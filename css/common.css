@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+.image-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+.pretty-hello {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+}
+#name-input {
+  padding: 10px;
+  border-radius: 10px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding: 24px;
+  gap: 24px;
+  max-width: 320px;
+  border: 1px solid rgba(72, 61, 61, 0.5);
+  border-radius: 16px;
+  background-color:#fafafa;
+  font-size: 16px;
+  color: rgba(72, 61, 61, 0.8);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.login-form:hover,
+.login-form:focus {
+  border-color: #212121;
+  color: rgb(72, 61, 61);
+}
+.task-login-btn, .change-color {
+  border-radius: 8px;
+  border: none;
+  color: #fafafa;
+  padding: 8px 16px;
+  width: 100px;
+  background-color: #4e75ff;
+}
+.task-login-btn:hover,
+.task-login-btn:focus,
+.change-color:hover,
+.change-color:focus {
+  background-color: #6c8cff;
+}
+.item {
+ background-color: beige;
+ border: 1px solid sandybrown;
+ border-radius: 20px;
+ list-style: none;
+ margin:0;
+ padding: 16px 24px;
+ margin-bottom: 10px;
+}
+.item h2 {
+  margin: 0;
+}
+.widget {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color:rgba(72, 61, 61, 0.5);
+  font-size: 28px;
+}
